@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main layout */
+.main-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Left section styles */
+.left-section {
+    width: 40%;
+    background-color: #ffe4dc;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.photo-frame {
+    border: 8px solid black;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: fit-content; 
+}
+.photo-frame img {
+    width: 250px; 
+    height: auto;
+    display: block;
+}
+
+
+.about-me h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+.about-me p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Right section styles */
+.right-section {
+    width: 60%;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.info-box p {
+    background-color: burlywood;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.skills-box, .interests-box, .education-box, .contact-box {
+    margin-top: 30px;
+}
+.skills-box h3, .interests-box h3, .education-box h3, .contact-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid burlywood;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.skills-box ul, .interests-box ul, .education-box ol {
+    padding-left: 20px;
+}
+.skills-box li, .interests-box li,.education-box li {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.contact-box a {
+    color: burlywood;
+    text-decoration: none;
+}
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: #fff;
+    font-size: 14px;
+}
